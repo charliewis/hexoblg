@@ -6,6 +6,8 @@ tags:
 
 ## Install pyenv
 ``` bash
+sudo apt install linuxbrew-wrapper
+
 brew install  pyenv
 brew install  pyenv-virtualenv
 ```
@@ -27,4 +29,9 @@ cd proj_test_pyenv
 . .venv3.8/bin/activate
 (.venv3.8) charlie@CHAB350M:~/proj_test_pyenv$ python -V
 Python 3.8.6
+```
+
+## cf. python2
+```
+virtualenv -p /usr/bin/python2.7 .venv2.7
 ```
