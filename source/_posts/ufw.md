@@ -5,5 +5,7 @@ tags:
 ---
 
 ### for mapping docker http
+```
 ufw route allow proto tcp from any to 172.17.0.1 port 80
-
+ufw route delete proto tcp from any to 172.17.0.1 port 80
+```

@@ -5,7 +5,9 @@ tags:
 ---
 
 ### build
-**docker build -t *docker_name* .**
+```
+docker build -t docker_name .
+```
 
 ### e.g.
 ```
@@ -13,10 +15,14 @@ docker build -t u16.04:ubuntu .
 ```
 
 ### view image
+```
 docker images
+```
 
 ### remove image
+```
 docker image rm <docker_name>
+```
 
 ### save and load to another computer
 ```
@@ -37,7 +43,9 @@ docker load -i apache2.tar
     <docker_name>
 ```
 ### view containers
+```
 docker ps
+```
 
 ### exec
 ```
@@ -45,13 +53,19 @@ docker exec -it <container_name> /bin/bash
 ```
 
 ### stop
+```
 docker stop <container_name>
+```
 
 ### remove container
+```
 docker rm <container_name>
+```
 
 ### remove image
+```
 docker rmi <image_name>
+```
 
 ---
 ### setup
@@ -59,25 +73,31 @@ docker rmi <image_name>
 sudo  apt install docker.io
 ```
 ---
-
+```
 curl -sf -L https://static.rust-lang.org/rustup.sh -o rustup.sh
 less rustup.sh
 chmod +x rustup.sh
 sudo ./rustup.sh
 source $HOME/.cargo/env
 source $HOME/.bashrc
+```
 
 ## add to docker group
+```
 sudo usermod -aG docker charlie
+```
 
-## 重啟
+## restart
+```
 sudo service docker restart
+```
 
-## 須重開機
-logout/login
+## reboot
 
-## 確認版本
+## view version
+```
 docker version
+```
 
 
 
