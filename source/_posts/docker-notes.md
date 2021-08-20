@@ -47,8 +47,11 @@ docker exec -it <container_name> /bin/bash
 ### stop
 docker stop <container_name>
 
-### remove
+### remove container
 docker rm <container_name>
+
+### remove image
+docker rmi <image_name>
 
 ---
 ### setup
