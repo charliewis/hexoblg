@@ -4,14 +4,17 @@ date: 2021-08-24 15:14:48
 tags:
 ---
 
-sanic --- async web framework
-charlie@CHAB350M:/data3/charlie/misc/sanic$ python3 server.py 
-charlie@CHAB350M:/data3/charlie/misc/sanic$ sanic server.app
+### sanic --- async web framework
+```
+python3 server.py 
+sanic server.app
 [2021-08-24 15:10:37 +0800] [25768] [INFO] Goin' Fast @ http://127.0.0.1:8000
 [2021-08-24 15:10:37 +0800] [25768] [INFO] Starting worker [25768]
+```
 
-flask --- light web framework
-charlie@CHAB350M:/data3/charlie/misc/flask$ ./hello_flask.py 
+### flask --- light web framework
+```
+./hello_flask.py 
  * Serving Flask app 'hello_flask' (lazy loading)
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
@@ -21,4 +24,4 @@ charlie@CHAB350M:/data3/charlie/misc/flask$ ./hello_flask.py
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 324-006-227
-
+```
