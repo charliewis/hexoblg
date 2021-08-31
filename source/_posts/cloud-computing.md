@@ -4,7 +4,7 @@ date: 2021-08-27 11:21:56
 tags:
 ---
 
-## benefits of cloud computing
+## Benefits of cloud computing
 
 ## Types of cloud computing
 
