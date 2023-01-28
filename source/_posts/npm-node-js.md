@@ -1,8 +1,8 @@
----
 title: npm node.js
 date: 2021-08-27 13:07:30
 tags:
 ---
+** update to install with nvm
 
 ## 變換版本
 ### 安裝版本切換工具
@@ -15,4 +15,3 @@ sudo n 11.15.0
 sudo n
 
 [目前hexo要 sudo n 12.13.0]
-

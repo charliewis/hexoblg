@@ -71,4 +71,6 @@ deploy:
   type: git
   repo: git@github.com:charliewis/charliewis.github.io.git
   branch: master
-  
+
+admin:
+  deployCommand: './hexo-deploy.sh'
